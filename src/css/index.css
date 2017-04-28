@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+
+
+
+/*轮播图*/
+
+.banner{
+    height: 350px;
+}
+.banner .slide li{
+    height: 350px;
+}
+
+
+
+/*内容区*/
+.container .number_zs{
+    background-color: #f3f6f9;
+}
+.container .number_zs .number{
+    height: 705px;
+}
+
+
+.container .number_zs .number .home_s{
+      position: relative;
+      top: -50px;
+  }
+
+.container .number_zs .number .home_s img{
+    margin-left: 20px;
+}
+.container .number_zs .number .home_f{
+    margin-top: -40px;
+}
+
+.container .number_zs .number .home_f ul li{
+    float: left;
+    height: 400px;
+    width: 270px;
+    background-color: #FFFFFF;
+}
+
+.container .number_zs .number .home_f ul li div.num_did{
+    height: 400px;
+    width: 270px;
+    background: url("../images/num.png") no-repeat;
+}
+.container .number_zs .number .home_f ul li div.num_did1{
+    background-position: 96px 34px;
+}
+.container .number_zs .number .home_f ul li div.num_did2{
+    background-position: -200px 34px;
+}
+.container .number_zs .number .home_f ul li div.num_did3{
+    background-position: -495px 34px;
+}
+.container .number_zs .number .home_f ul li div.num_did4{
+    background-position: -790px 34px;
+}
+.container .number_zs .number .home_f ul li div.num_did h3{
+    color: #666666;
+    font-size: 18px;
+    padding-top: 152px;
+    padding-left: 20px;
+}
+.container .number_zs .number .home_f ul li div.num_did p{
+    color: #999999;
+    font-size: 16px;
+    text-align: justify;
+    padding:20px 20px 0px;
+    /*word-break: break-all;*/
+    word-wrap: break-word;
+    word-break: normal;
+    word-spacing: 1px;
+}
+
+.container .home_us{
+    height: 410px;
+}
+.container .home_us .h_about{
+    float: left;
+    width: 676px;
+    margin-left: 20px;
+    margin-top: 110px;
+}
+.container .home_us .h_about a{
+    margin-top: 25px;
+    margin-left: 500px;
+    display: inline-block;
+}
+.container .home_us .h_about h3{
+    color: #7d21fd;
+    font-size: 18px;
+}
+.container .home_us .h_about p{
+    color: #999999;
+    font-size: 16px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    word-break: normal;
+    word-spacing: 1px;
+}
+
+
+.container .home_us .h_pic{
+    float: right;
+    position: relative;
+}
+.container .home_us .h_pic img:first-child{
+    position: absolute;
+    top: 30px;
+    right: 170px;
+}
+.container .home_us .h_pic img:last-child{
+    margin-right: 30px;
+    margin-top: 123px;
+}
+
+
+
+.container .h_cus{
+    background-color: #f3f6f9;
+    height: 460px;
+}
+
+.container .h_cus h3{
+    font-size: 18px;
+    color: #7d21fd;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container .h_cus .h_lunbo ul li{
+    text-align: center;
+}
+
+
+
+
+
