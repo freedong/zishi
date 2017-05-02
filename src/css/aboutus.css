@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+
+
+
+/*轮播图*/
+
+.banner{
+    height: 350px;
+}
+.banner .slide li{
+    height: 350px;
+}
+
+
+
+
+
+/*内容区*/
+
+.container{
+    background-color: #f3f6f9;
+}
+
+
+.container .about_us{
+    height: 440px;
+    background-color: #FFFFFF;
+}
+.container .about_us .about_h{
+    float: left;
+    width: 680px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.container .about_us .about_h h3{
+    color: #7d21fd;
+    font-size: 18px;
+}
+.container .about_us .about_h p{
+    color: #999999;
+    font-size: 16px;
+    margin-top: 25px;
+    word-wrap: break-word;
+    word-break: normal;
+    word-spacing: 1px;
+}
+
+
+.container .about_us .about_pic{
+    float: right;
+    position: relative;
+}
+.container .about_us .about_pic img:first-child{
+    position: absolute;
+    top: 63px;
+    right: 170px;
+}
+.container .about_us .about_pic img:last-child{
+    margin-right: 30px;
+    margin-top: 155px;
+}
+
+
+
+
+
+
+
+
+.w1080{
+    width: 1080px;
+    margin: 0px auto;
+}
+.container .about_js{
+    /*width: 1080px;*/
+    height: 400px;
+    background-color: #FFFFFF;
+    /*margin-left: 40px;*/
+    margin-top: -10px;
+    box-shadow: 1px 1px 30px 10px #e3e6e8;
+}
+
+.container .about_js .about_js_div{
+    width: 760px;
+}
+
+.container .about_js .about_js_div p{
+    padding: 0px 30px;
+    color: #999999;
+    font-size: 16px;
+}
+
+.container .about_js .about_js_div p:first-child{
+    margin-top: 100px;
+}
+.container .about_js .about_js_div p:last-child{
+    margin-top: 36px;
+}
+
+
+
+
+.container .about_hdk{
+    margin-top: 56px;
+}
+
+
+.container .about_hdk ul li{
+    width: 386px;
+    height: 330px;
+    float: left;
+}
+
+
+.container .about_hdk ul li .about_hdk_div{
+    background: url("../images/good.png") no-repeat;
+}
+
+.container .about_hdk ul li .about_hdk_div.good1{
+    background-position: 160px 40px;
+}
+.container .about_hdk ul li .about_hdk_div.good2{
+    background-position: -225px 40px;
+}
+.container .about_hdk ul li .about_hdk_div.good3{
+    background-position: -615px 40px;
+}
+
+.container .about_hdk ul li .about_hdk_div .about_hr{
+    width: 20px;
+    margin-left: 185px;
+    margin-top: 5px;
+}
+
+
+.container .about_hdk ul li .about_hdk_div h3{
+    color: #666666;
+    font-size: 18px;
+    padding-top: 135px;
+    text-align: center;
+}
+
+
+.container .about_hdk ul li .about_hdk_div p{
+    color: #999999;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 70px 0px;
+    white-space:pre-wrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    height: 70px;
+}
+
+
+
+
+
+
+.container .about_whyus{
+    position: relative;
+    height: 380px;
+    background: url("../images/about_whyus.png") 0px -400px no-repeat;
+   /* background-color: #000;
+    opacity: 0.8;*/
+}
+
+.container .about_whyus .about_whyus_title{
+    position: relative;
+}
+
+.container .about_whyus .about_whyus_title h3{
+    font-size: 46px;
+    color: #7c21fb;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 510px;
+ }
+
+.container .about_whyus .about_whyus_title h5{
+    font-size: 30px;
+    color: #bcb7bf;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+.container .about_whyus .about_lunbo{
+    z-index: 99;
+    position: absolute;
+    top: 135px;
+    left: 60px;
+    width: 1080px;
+    height: 330px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 30px 10px #e3e6e8;
+}
+
+.container .about_whyus .about_lunbo .about_lunbo_img{
+    width: 360px;
+    height: 330px;
+    line-height: 330px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 60px;
+}
+
+.container .about_whyus .about_lunbo .about_lunbo_wz{
+    width: 720px;
+    margin-top: 75px;
+}
+
+.container .about_whyus .about_lunbo .about_lunbo_wz p{
+    font-size: 16px;
+    color: #999999;
+}
+
+.container .about_whyus .about_lunbo .about_lunbo_wz p span{
+    font-size: 16px;
+    color: #333333;
+}
+
+.container .about_whyus .about_lunbo .about_lunbo_wz a img{
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+.container .about_cus{
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+.container .about_cus ul li{
+    text-align: center;
+}

@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+
+/*轮播图*/
+
+.banner{
+    height: 280px;
+}
+.banner .slide li{
+    height: 280px;
+}
+
+
+/*内容区*/
+
+.container .cn_sms_wz{
+    background-color: #f3f6f9;
+    height: 345px;
+}
+.container .cn_sms_bg{
+    background: url(../images/CHINA-SMS.png) 750px 28px no-repeat;
+    padding-top: 66px;
+}
+.container .cn_sms_wz .cn_sms_wz_div{
+    height: 230px;
+    background-color: #FFFFFF;
+}
+
+.container .cn_sms_wz .cn_sms_wz_div h3{
+    color: #7d21fd;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+.container .cn_sms_wz .cn_sms_wz_div h3.h3_sms_bg{
+    height: 40px;
+    background: url(../images/SMS.png) 100px 40px no-repeat;
+}
+
+.container .cn_sms_wz .cn_sms_wz_div p{
+    font-size: 16px;
+    color: #999999;
+    word-wrap: break-word;
+    word-break: normal;
+    word-spacing: 1px;
+    padding: 10px 25px;
+}
+
+
+
+
+.container .cn_sms_why{
+    background-color: #FFFFFF;
+    height: 550px;
+}
+
+.container .cn_sms_why .cn_sms_why1{
+    width: 640px;
+    position: relative;
+    background: url("../images/CHINA-SMS1.png") 249px 70px no-repeat;
+}
+.container .cn_sms_why .cn_sms_why1 img{
+    vertical-align: middle;
+}
+.container .cn_sms_why .cn_sms_why1 .cn_sms_why1_img1{
+    width: 439px;
+    height: 282px;
+    line-height: 282px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #f2f2f2;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 35px;
+}
+
+.container .cn_sms_why .cn_sms_why1 .cn_sms_why1_img2{
+    width: 168px;
+    height: 340px;
+    line-height: 340px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #f2f2f2;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    top: 85px;
+    left: 395px;
+}
+
+
+
+.container .cn_sms_why .cn_sms_why2{
+    width: 480px;
+}
+.container .cn_sms_why .cn_sms_why2 h3{
+    color: #7d21fd;
+    font-size: 18px;
+    margin-top: 58px;
+    margin-left: 35px;
+}
+
+.container .cn_sms_why .cn_sms_why2 p{
+    color: #999999;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 0px 35px;
+}
+
+.container .cn_sms_why .cn_sms_why2 a img{
+    margin: 15px 0px 0px 15px;
+}
+
+
+
+.container .cn_sms_tv{
+    background-color: #f3f6f9;
+    height: 450px;
+}
+.container .cn_sms_tv ul{
+    position: relative;
+}
+.container .cn_sms_tv ul li{
+    float: left;
+    height: 310px;
+    width: 288px;
+    position: absolute;
+}
+.container .cn_sms_tv ul li:nth-child(1){
+    top: 48px;
+    left: 40px;
+    z-index: 99;
+ }
+.container .cn_sms_tv ul li:nth-child(2){
+    top: 90px;
+    left: 310px;
+    background-color: #FFFFFF;
+}
+.container .cn_sms_tv ul li:nth-child(3){
+    top: 48px;
+    left: 590px;
+    z-index: 99;
+}
+.container .cn_sms_tv ul li:nth-child(4){
+    top: 90px;
+    left: 860px;
+    background-color: #FFFFFF;
+}
+
+.container .cn_sms_tv ul li h3{
+    color: #7d21fd;
+    font-size: 18px;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.container .cn_sms_tv ul li p{
+    font-size: 16px;
+    color: #999999;
+    padding: 0px 30px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+.container .cn_sms{
+    background-color: #f3f6f9;
+    height: 420px;
+}
+
+
+.container .cn_sms .cn_sms2{
+    height: 300px;
+    background: url(../images/cd_as2.png) no-repeat;
+}
+
+.container .cn_sms .cn_sms2 .cn_sms2_div1{
+    margin-left: 37px;
+    padding-top: 40px;
+}
+.container .cn_sms .cn_sms2 .cn_sms2_div{
+    height: 290px;
+    background-color: #FFFFFF;
+    width: 1082px;
+    box-shadow: 0px 30px 50px -20px #e5e8ea;
+}
+.container .cn_sms .cn_sms2 .cn_sms2_div h3{
+    color: #7d21fd;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 58px;
+}
+
+.container .cn_sms .cn_sms2 .cn_sms2_div h6 {
+    color: #999999;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container .cn_sms .cn_sms2 .cn_sms2_div a img{
+    margin-top: 60px;
+    margin-left: 450px;
+}
