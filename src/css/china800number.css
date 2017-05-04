@@ -31,9 +31,48 @@
     width: 780px;
 }
 
+.container .cen .cen_cen .cen_cen_div2{
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+.container .cen .cen_cen .cen_cen_div2:hover{
+    -webkit-transform: translate(0px,-15px);
+    -moz-transform: translate(0px,-15px);
+    -ms-transform: translate(0px,-15px);
+    -o-transform: translate(0px,-15px);
+    transform: translate(0px,-15px);
+
+    box-shadow: 0px 0px 10px 10px #e3e6e8;
+}
+
+
 
 .container .cen .cen_cen .cen_cen_div1{
-    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 360px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.container .cen .cen_cen .cen_cen_div2 .cen_cen_div1 img{
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+.container .cen .cen_cen .cen_cen_div2:hover .cen_cen_div1 img{
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
 
 .container .cen .cen_cen .cen_cen_div h3{
@@ -41,7 +80,44 @@
     font-size: 18px;
     padding-top: 50px;
     padding-left: 25px;
+    position: relative;
 }
+
+
+.container .cen .cen_cen .cen_cen_div2:hover h3:before{
+    width: 230px;
+}
+
+.container .cen .cen_cen .cen_cen_div h3:before{
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: #7d21fd;
+    position: absolute;
+    left: 27px;
+    top: 80px;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -ms-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    z-index: 1;
+}
+.container .cen .cen_cen .cen_cen_div h3:after{
+    content: '';
+    width: 230px;
+    height: 1px;
+    background: #f3f6f9;
+    position: absolute;
+    left: 27px;
+    top: 80px;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -ms-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+}
+
 .container .cen .cen_cen .cen_cen_div h3.h3_bg{
     height: 40px;
     background: url(../images/800.png) 110px 40px no-repeat;
@@ -120,7 +196,23 @@
     position: absolute;
     top: 0px;
     right: 0px;
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
 }
+
+.container .cen .cen_cnf .cen_cnf_img img:hover{
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+
 .container .cen .cen_cnf .cen_cnf_img img:first-child{
     top: 100px;
     right: 20px;

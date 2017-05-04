@@ -534,6 +534,7 @@ color:#9b040d;
 .pt40{padding-top:40px}
 .pt50{padding-top:50px}
 .pt60{padding-top:60px}
+.pt80{padding-top:80px}
 .pb5{padding-bottom:5px}
 .pb10{padding-bottom:10px}
 .pb15{padding-bottom:15px}
@@ -771,12 +772,131 @@ p{
 }
 
 
-.head .nav ul li a{
-	font-size: 18px;
-	color: #999999;
+.head .nav ul li a.a2{
+	padding-right: 15px;
+	background: url("../images/jt.png") 65px 10px no-repeat;
 }
 
 
+.head .nav ul li a{
+	font-size: 18px;
+	color: #999999;
+	position: relative;
+	/*-webkit-transition: border-bottom 0.5s ease-out 0s;
+	-moz-transition: border-bottom 0.5s ease-out 0s;
+	-ms-transition: border-bottom 0.5s ease-out 0s;
+	-o-transition: border-bottom 0.5s ease-out 0s;
+	transition: border-bottom 0.5s ease-out 0s;*/
+}
+
+/*.head .nav ul li.level:hover a{
+	border-bottom: 1px solid #9b040d;
+}*/
+
+.head .nav ul li.level:hover a.a1:after{
+	width: 100%;
+}
+
+.head .nav ul li.level a.a1:after{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 1px;
+	background-color: #7d21fd;
+	position: absolute;
+	left: 0px;
+	bottom: -5px;
+	transition: all 0.6s ease 0s;
+}
+
+
+
+
+.head .nav ul li.level1:hover ul.ul2{
+	-webkit-transform: translate(0px,-25px);
+	-moz-transform: translate(0px,-25px);
+	-ms-transform: translate(0px,-25px);
+	-o-transform: translate(0px,-25px);
+	transform: translate(0px,-25px);
+	/*display: block;*/
+	opacity: 1;
+	visibility: visible;
+}
+
+.head .nav ul li.level1{
+	position: relative;
+	height: 40px;
+}
+
+.head .nav ul li.level1 ul.ul2{
+	position: absolute;
+	top: 65px;
+	left: 80px;
+
+	-webkit-transition: all 0.35s linear 0s;
+	-moz-transition: all 0.35s linear 0s;
+	-ms-transition: all 0.35s linear 0s;
+	-o-transition: all 0.35s linear 0s;
+	transition: all 0.35s linear 0s;
+	/*display: none;*/
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+/*.head .nav ul li.level1 ul.ul2 li i{
+	display: inline-block;
+	width: 6px;
+	height: 10px;
+	background: url("../images/jt_right.png") 0px 0px no-repeat;
+}*/
+
+.head .nav ul li.level1 ul.ul2 li img.jt_right{
+	position: absolute;
+	top: 26px;
+	left: 230px;
+	opacity: 0;
+}
+
+.head .nav ul li.level1 ul.ul2 li:hover img.jt_right{
+	position: absolute;
+	top: 26px;
+	left: 230px;
+	opacity: 1;
+}
+
+.head .nav ul li.level1 ul.ul2 li a{
+	-webkit-transition: all 0.35s ease-out 0s;
+	-moz-transition: all 0.35s ease-out 0s;
+	-ms-transition: all 0.35s ease-out 0s;
+	-o-transition: all 0.35s ease-out 0s;
+	transition: all 0.35s ease-out 0s;
+
+}
+
+.head .nav ul li.level1 ul.ul2 li:hover a{
+	display: block;
+	width: 220px;
+	/*background: url("../images/jt_right.png") 185px 25px no-repeat;*/
+	-webkit-transform: translate(10px,0px);
+	-moz-transform: translate(10px,0px);
+	-ms-transform: translate(10px,0px);
+	-o-transform: translate(10px,0px);
+	transform: translate(10px,0px);
+}
+
+.head .nav ul li.level1 ul.ul2 li{
+	width: 220px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #f3f6f9;
+	text-align: justify;
+	padding-left: 40px;
+	position: relative;
+}
+.head .nav ul li.level1 ul.ul2 li:hover{
+	background-color: #ffffff;
+}
 
 /*底部栏*/
 
