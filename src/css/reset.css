@@ -41,12 +41,17 @@ body{
 /* 要注意表单元素并不继承父级 font 的问题 */
 
 body, button, input, select, textarea {
-	font-family: "微软雅黑","Microsoft YaHei";
+	/*font-family: "微软雅黑","Microsoft YaHei";*/
+	font-family:Arial;
 	font-size:14px;
 	line-height:24px;
 	color: #666;
 	outline: none;
 }
+
+/*p.sansserif{font-family:Arial,Verdana,Sans-serif}*/
+
+
 input, select, textarea {
 	font-size: 100%;
 	padding-left:10px;
@@ -778,6 +783,10 @@ p{
 }
 
 
+.head .nav ul li.level a.a1{
+	padding-bottom: 5px;
+}
+
 .head .nav ul li a{
 	font-size: 18px;
 	color: #999999;
@@ -788,6 +797,18 @@ p{
 	-o-transition: border-bottom 0.5s ease-out 0s;
 	transition: border-bottom 0.5s ease-out 0s;*/
 }
+
+.head .nav ul li.level:hover a.a1{
+	color: #333333;
+
+}
+
+.head .nav ul li.level a.a1.active{
+	color: #333333;
+	border-bottom: 1px solid #7d21fd;
+	padding-bottom: 5px;
+}
+
 
 /*.head .nav ul li.level:hover a{
 	border-bottom: 1px solid #9b040d;
@@ -805,7 +826,7 @@ p{
 	background-color: #7d21fd;
 	position: absolute;
 	left: 0px;
-	bottom: -5px;
+	bottom: -1px;
 	transition: all 0.6s ease 0s;
 }
 
@@ -856,6 +877,10 @@ p{
 	top: 26px;
 	left: 230px;
 	opacity: 0;
+}
+
+.head .nav ul li.level1 ul.ul2 li:hover a{
+	color: #333333;
 }
 
 .head .nav ul li.level1 ul.ul2 li:hover img.jt_right{

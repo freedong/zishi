@@ -310,7 +310,7 @@
 .container .about_hdk ul li .about_hdk_div1 h3:before{
     content: '';
     width: 30px;
-    height: 2px;
+    height: 1px;
     border-radius: 5px;
     background-color: #999999;
     margin: 0 auto;
