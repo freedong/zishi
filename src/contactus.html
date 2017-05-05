@@ -19,6 +19,8 @@
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/aos.js"></script>
 
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+
 </head>
 <body>
 
@@ -60,9 +62,25 @@
 <div class="container">
     <div class="w1160 pt30">
         <div class="contact_adress clearFloat">
-            <div class="floatLeft contact_adress_img" aos="fade-right" aos-easing="ease" aos-delay="300">
-                <img src="images/contact_adress_img.png" />
+            <div class="floatLeft picScroll-left">
+                <div class="hd">
+                    <!--a class="next"></a>-->
+                    <ul></ul>
+                    <!--<a class="prev"></a>-->
+                    <!--<span class="pageState"></span>-->
+                </div>
+                <div class="contact_adress_img bd" aos="fade-right" aos-easing="ease" aos-delay="300">
+                    <ul class="clearFloat">
+                        <li>
+                            <img src="images/contact_adress_img.png"/>
+                        </li>
+                        <li>
+                            <img src="images/contact_adress_img1.png"/>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
             <div class="floatRight contact_adress_lb" aos="fade-left" aos-easing="ease" aos-delay="300">
                 <ul>
                     <li>
@@ -90,7 +108,7 @@
         <div class="contact_send">
             <div class="contact_send_title">
                 <h3 aos="fade-up" aos-easing="ease" aos-delay="300">Get In Touch With Us</h3>
-                <h5>PURPLE STONE TELECOM LIMITED</h5>
+                <h5><!--PURPLE STONE TELECOM LIMITED--></h5>
             </div>
             <div class="contact_send_input" aos="fade-up" aos-easing="ease" aos-delay="300">
                 <div class="contact_send_input1">
@@ -98,9 +116,8 @@
                         <label>Name:</label>
                         <input type="text" />
                     </span>
-
                    <span class="s2">
-                        <label class="ml20">Name:</label>
+                        <label class="ml20">Email:</label>
                         <input type="text"/>
                    </span>
                     <span class="s3">
@@ -155,6 +172,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
                 </ul>
             </div>
             <div class="floatLeft h_foot_s">
@@ -185,6 +203,20 @@
 
 
 
+
+<script type="text/javascript">
+    jQuery(".picScroll-left").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        autoPage: true,
+        effect: "leftLoop",
+        /*scroll:6,*/
+        autoPlay: true,
+        interTime:5000,
+        vis: 1,
+        trigger: "click"
+    });
+</script>
 
 
 <script>

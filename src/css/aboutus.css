@@ -424,7 +424,7 @@
     height: 330px;
     margin: 0 auto;
     background-color: #FFFFFF;
-    box-shadow: 1px 1px 30px 10px #e3e6e8;
+    box-shadow: 1px 1px 20px 0px #e3e6e8;
 }
 
 .container .about_whyus .about_lunbo .about_lunbo_img{
@@ -474,24 +474,80 @@
     zoom: 1;
     position: absolute;
     top: 312px;
-    left: 500px;
+    left: 425px;
     z-index: 100;
 }
 
 .about_whyus .picScroll-left1 .hd1 ul li {
     float: left;
-    width: 9px;
-    height: 9px;
+    width: 20px;
+    height: 2px;/*20 4*/
     overflow: hidden;
-    margin-right: 5px;
+    margin-right: 10px;
     text-indent: -999px;
     cursor: pointer;
-    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+    background: url("../images/icoCircle1.png") 0 -2px no-repeat;
 }
 
 .about_whyus .picScroll-left1 .hd1 ul li.on {
     background-position: 0 0;
 }
+
+
+
+
+
+
+/*
+.about_whyus .picScroll-left1:hover .hd1 .prev1,.about_cus .picScroll-left1:hover .hd1 .next1{
+    opacity: 1;
+}
+
+.about_whyus .picScroll-left1 .hd1 .prev1{
+    opacity: 1;
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background: url("../images/lb_left_bs.png") no-repeat;
+    z-index: 100;
+}
+
+.about_whyus .picScroll-left1 .hd1 .next1{
+    opacity: 1;
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background: url("../images/lb_right_bs.png") no-repeat;
+    z-index: 100;
+}
+
+.about_whyus .picScroll-left1 .hd1 a.next1:hover{
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    background: url("../images/lb_right_jg.png") no-repeat;
+    z-index: 100;
+}
+
+.about_whyus .picScroll-left1 .hd1 a.prev1:hover{
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    background: url("../images/lb_left_jg.png") no-repeat;
+    z-index: 100;
+}
+*/
+
+
+
+
+
 
 
 
@@ -526,7 +582,7 @@
 
 /*轮播效果*/
 
-.about_cus .picScroll-left .hd {
+.about_cus .picScroll-left .hd{
     height: 30px;
     padding: 0 10px;
     position: relative;
@@ -585,11 +641,11 @@
     width: 15px;
     height: 26px;
     display: inline-block;
-    background: url("../images/lb_right_jg.png") no-repeat;
+    background: url("../images/lb_left_jg.png") no-repeat;
 }
 
 
-.about_cus .picScroll-left .hd ul {
+.about_cus .picScroll-left .hd ul{
     float: right;
     overflow: hidden;
     zoom: 1;
@@ -600,17 +656,17 @@
     left: 50%;
 }
 
-.about_cus .picScroll-left .hd ul li {
+.about_cus .picScroll-left .hd ul li{
     float: left;
-    width: 9px;
-    height: 9px;
+    width: 10px;
+    height: 10px;
     overflow: hidden;
-    margin-right: 5px;
+    margin-right: 15px;
     text-indent: -999px;
     cursor: pointer;
-    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+    background: url("../images/icoCircle.png") 0 -10px no-repeat;
 }
 
-.about_cus .picScroll-left .hd ul li.on {
+.about_cus .picScroll-left .hd ul li.on{
     background-position: 0 0;
 }

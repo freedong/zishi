@@ -35,6 +35,85 @@
     margin-top: 86px;
 }
 
+
+.container .contact_adress .contact_adress_img ul li{
+    float: left;
+}
+
+
+
+
+
+/*.picScroll-left .hd{
+    position: relative;
+}
+.picScroll-left .hd ul{
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 312px;
+    left: 500px;
+    z-index: 100;
+}
+
+.picScroll-left .hd ul li{
+    float: left;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    margin-right: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+}
+
+.picScroll-left .hd ul li.on{
+    background-position: 0 0;
+}*/
+
+
+.picScroll-left .hd{
+    position: relative;
+}
+
+.picScroll-left .hd ul {
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+}
+
+.picScroll-left .hd ul li {
+    float: left;
+    width: 20px;
+    height: 2px;
+    overflow: hidden;
+    margin-right: 15px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle1.png") 0 -2px no-repeat;
+}
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+}
+
+
+
+
+
+
+
+
+
+
 .container .contact_adress .contact_adress_lb ul{
     margin-right: 150px;
     margin-top: 80px;

@@ -98,7 +98,7 @@
     width: 230px;
 }
 
-.container .number_zs .number .home_f ul li:hover div.num_did{
+/*.container .number_zs .number .home_f ul li:hover div.num_did{
     height: 400px;
     width: 270px;
     background: url("../images/num1.png") no-repeat;
@@ -114,7 +114,7 @@
 }
 .container .number_zs .number .home_f ul li:hover div.num_did4{
     background-position: -790px 34px;
-}
+}*/
 
 
 
@@ -369,7 +369,7 @@
     width: 15px;
     height: 26px;
     display: inline-block;
-    background: url("../images/lb_right_jg.png") no-repeat;
+    background: url("../images/lb_left_jg.png") no-repeat;
 }
 
 
@@ -386,13 +386,13 @@
 
 .picScroll-left .hd ul li {
     float: left;
-    width: 9px;
-    height: 9px;
+    width: 10px;/*10 20*/
+    height: 10px;
     overflow: hidden;
-    margin-right: 5px;
+    margin-right: 15px;
     text-indent: -999px;
     cursor: pointer;
-    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+    background: url("../images/icoCircle.png") 0 -10px no-repeat;
 }
 
 .picScroll-left .hd ul li.on {

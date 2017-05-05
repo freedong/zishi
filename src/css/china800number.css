@@ -279,6 +279,15 @@
     width: 1082px;
     box-shadow: 0px 30px 50px -20px #e5e8ea;
 }
+
+
+
+.pstl{
+    background: url("../images/pstl.png") 30px 100px no-repeat;
+}
+
+
+
 .container .cen_as .cen_as2 .cen_as2_div h3{
     color: #7d21fd;
     font-size: 46px;
