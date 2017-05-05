@@ -753,13 +753,13 @@ p{
 	float: left;
 	margin-top: 20px;
 }
-.head .logo span{
+/*.head .logo span{
 	font-size: 22px;
 	color: #3a028d;
 	display: block;
 	margin-top: -45px;
 	text-indent: 75px;
-}
+}*/
 .head .nav{
 	float: right;
 	margin-top: 40px;
@@ -779,7 +779,7 @@ p{
 
 .head .nav ul li a.a2{
 	padding-right: 15px;
-	background: url("../images/jt.png") 65px 10px no-repeat;
+	background: url("../images/jt.png") 65px 8px no-repeat;
 }
 
 
@@ -943,6 +943,18 @@ p{
 	color: #999999;
 	line-height: 35px;
 }
+
+.footer .h_foot ul li a{
+	font-size: 16px;
+	color: #999999;
+	line-height: 35px;
+}
+
+.footer .h_foot ul li a:hover{
+	color: #FFFFFF;
+}
+
+
 .footer .h_foot .h_foot_s{
 	margin: 0px 190px;
 }
@@ -981,4 +993,7 @@ hr.hr_bg00{
 	border:none;
 	border-top:1px solid  #000000;
 }
+
+
+
 

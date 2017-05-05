@@ -172,7 +172,25 @@
     height: 310px;
     width: 288px;
     position: absolute;
+    overflow: hidden;
 }
+.container .cn_sms_tv ul li:nth-child(1){
+    height: 328px;
+    width: 288px;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+}
+
+.container .cn_sms_tv ul li:nth-child(3){
+    height: 328px;
+    width: 288px;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+}
+
+
 
 .container .cn_sms_tv ul li img{
     -webkit-transition: all 0.5s ease-out 0s;

@@ -19,6 +19,7 @@
 
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 
 
 </head>
@@ -27,7 +28,7 @@
    <div class="head clearFloat w1200">
        <div class="logo">
            <img src="images/logo.png" alt="logo" />
-           <span>PURPLE STONE TELECOM LIMITED</span>
+          <!-- <span>PURPLE STONE TELECOM LIMITED</span>-->
        </div>
        <div class="nav">
             <ul class="clearFloat">
@@ -102,18 +103,47 @@
                 <a href="javascript:void(0);" aos="fade-up" aos-easing="ease" aos-delay="500"><img src="images/more.png" /></a>
             </div>
             <div class="h_pic">
-                <img class="h_pic1" src="images/h_pic1.png" aos="fade-up" aos-easing="ease" aos-delay="100" />
-                <img class="h_pic2" src="images/h_pic2.png" aos="fade-up" aos-easing="ease" aos-delay="200" />
+                <div class="h_pic_div1">
+                    <img class="h_pic1" src="images/h_pic1.png" aos="fade-up" aos-easing="ease" aos-delay="100" />
+                </div>
+                <div class="h_pic_div2">
+                    <img class="h_pic2" src="images/h_pic2.png" aos="fade-up" aos-easing="ease" aos-delay="200" />
+                </div>
             </div>
         </div>
+
+
         <div class="h_cus">
-            <div class="w1160">
+            <div class="w1200 picScroll-left">
                 <h3>HAPPY CUSTOMERS</h3>
-                <div class="h_lunbo">
-                    <ul>
-                        <li><img src="images/h_cus1.png"></li>
-                        <li style="display: none;"><img src="images/h_cus2.png"></li>
-                    </ul>
+
+                <div class="hd">
+                    <a class="next"></a>
+                    <ul></ul>
+                    <a class="prev"></a>
+                    <!--<span class="pageState"></span>-->
+                </div>
+                <div class="h_lunbo bd">
+                    <div style="height: 100px;width: 1100px;margin-left: auto!important;margin-right: auto!important;">
+                        <ul>
+                            <!-- <li><img src="images/h_cus1.png"></li>
+                             <li style="display: none;"><img src="images/h_cus2.png"></li>-->
+                            <li><img src="images/c1.png" /></li>
+                            <li><img src="images/c2.png" /></li>
+                            <li><img src="images/c3.png" /></li>
+                            <li><img src="images/c4.png" /></li>
+                            <li><img src="images/c5.png" /></li>
+                            <li><img src="images/c6.png" /></li>
+                            <!--<li><img src="images/c7.png" /></li>-->
+                            <li><img src="images/c7.png" /></li>
+                            <li><img src="images/c8.png" /></li>
+                            <li><img src="images/c9.png" /></li>
+                            <li><img src="images/c10.png" /></li>
+                            <li><img src="images/c11.png" /></li>
+                            <li><img src="images/c12.png" /></li>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,17 +156,17 @@
                 <div class="floatLeft h_foot_c">
                     <label>COMPANY</label>
                     <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
                     </ul>
                 </div>
                 <div class="floatLeft h_foot_s">
                     <label>SERVICE</label>
                     <ul>
-                        <li>China DIDs</li>
-                        <li>China 400 Number</li>
-                        <li>China 800 Number</li>
-                        <li>China SMS</li>
+                        <li><a href="chinadids.html">China DIDs</a></li>
+                        <li><a href="china400number.html">China 400 Number</a></li>
+                        <li><a href="china800number.html">China 800 Number</a></li>
+                        <li><a href="chinasms.html">China SMS</a></li>
                     </ul>
                 </div>
                 <div class="floatLeft h_foot_co">
@@ -157,7 +187,19 @@
     </div>
 
 
-
+   <script type="text/javascript">
+       jQuery(".picScroll-left").slide({
+           titCell: ".hd ul",
+           mainCell: ".bd ul",
+           autoPage: true,
+           effect: "leftLoop",
+           scroll:6,
+           autoPlay: true,
+           interTime:5000,
+           vis: 6,
+           trigger: "click"
+       });
+   </script>
 
    <script>
        AOS.init({

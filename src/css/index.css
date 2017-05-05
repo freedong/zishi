@@ -238,13 +238,31 @@
     zoom: 1;
 }
 
-.container .home_us .h_pic img:first-child{
+.container .home_us .h_pic .h_pic_div1 img:first-child{
+    /*position: absolute;
+    top: 30px;
+    right: 170px;
+    z-index: 99;*/
+}
+.container .home_us .h_pic .h_pic_div2 img:last-child{
+   /* margin-right: 30px;
+    margin-top: 123px;
+    z-index: 98;*/
+}
+
+.container .home_us .h_pic .h_pic_div1{
+    width: 250px;
+    height: 298px;
     position: absolute;
     top: 30px;
     right: 170px;
     z-index: 99;
+    overflow: hidden;
 }
-.container .home_us .h_pic img:last-child{
+.container .home_us .h_pic .h_pic_div2{
+    width: 213px;
+    height: 253px;
+    overflow: hidden;
     margin-right: 30px;
     margin-top: 123px;
     z-index: 98;
@@ -269,11 +287,115 @@
     padding-bottom: 80px;
 }
 
+
 .container .h_cus .h_lunbo ul li{
     text-align: center;
+    float: left;
+    /*background-color: #008888;*/
+    width: 183px;
+    height: 100px;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.container .h_cus .h_lunbo ul li img{
+    vertical-align: middle;
 }
 
 
 
 
+
+
+
+/*轮播效果*/
+
+.picScroll-left .hd {
+    height: 30px;
+    padding: 0 10px;
+    position: relative;
+}
+
+/*.picScroll-left .hd .prev, .picScroll-left .hd .next {
+	display: block;
+	width: 5px;
+	height: 9px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url("../images/arrow.png") no-repeat;
+}*/
+
+/*.picScroll-left .hd .next {
+	background-position: 0 -50px;
+}*/
+
+.picScroll-left:hover .hd .prev,.picScroll-left:hover .hd .next{
+    opacity: 1;
+}
+
+.picScroll-left .hd .prev{
+    opacity: 0;
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background: url("../images/lb_left.png") no-repeat;
+}
+
+.picScroll-left .hd .next{
+    opacity: 0;
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    background: url("../images/lb_right.png") no-repeat;
+}
+
+.picScroll-left .hd a.next:hover{
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    background: url("../images/lb_right_jg.png") no-repeat;
+}
+
+.picScroll-left .hd a.prev:hover{
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    background: url("../images/lb_right_jg.png") no-repeat;
+}
+
+
+.picScroll-left .hd ul {
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+}
+
+.picScroll-left .hd ul li {
+    float: left;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    margin-right: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+}
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+}
 

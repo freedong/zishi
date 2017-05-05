@@ -192,11 +192,20 @@
 }
 
 
-.container .cen .cen_cnf .cen_cnf_img,.container .cen .cen_cnf .cen_cnf_img img{
+.container .cen .cen_cnf .cen_cnf_img,.container .cen .cen_cnf .cen_cnf_img .cen_cnf_img1,.container .cen .cen_cnf .cen_cnf_img .cen_cnf_img2{
     position: absolute;
     top: 0px;
     right: 0px;
 
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+
+.container .cen .cen_cnf .cen_cnf_img .cen_cnf_img1 img,.container .cen .cen_cnf .cen_cnf_img .cen_cnf_img2 img{
     -webkit-transition: all 0.5s ease-out 0s;
     -moz-transition: all 0.5s ease-out 0s;
     -ms-transition: all 0.5s ease-out 0s;
@@ -214,14 +223,30 @@
 
 
 .container .cen .cen_cnf .cen_cnf_img img:first-child{
-    top: 100px;
-    right: 20px;
+    /*top: 100px;
+    right: 20px;*/
 }
 .container .cen .cen_cnf .cen_cnf_img img:last-child{
-    top: 190px;
-    right: 100px;
+   /* top: 190px;
+    right: 100px;*/
 }
 
+
+.container .cen .cen_cnf .cen_cnf_img .cen_cnf_img1{
+    top: 100px;
+    right: 20px;
+    width: 295px;
+    height: 352px;
+    overflow: hidden;
+ }
+
+.container .cen .cen_cnf .cen_cnf_img .cen_cnf_img2{
+    top: 190px;
+    right: 100px;
+    width: 295px;
+    height: 352px;
+    overflow: hidden;
+}
 
 
 
