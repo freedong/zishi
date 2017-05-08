@@ -99,7 +99,8 @@
 .container .cn_why{
     position: relative;
     height: 330px;
-    background: url("../images/cn_bg.png") 0px -460px no-repeat;
+    background: url("../images/cn_bg.png") 0px -300px no-repeat;
+    background-attachment: fixed;
 }
 
 .container .cn_why .cn_yys{
@@ -149,7 +150,7 @@
 }
 
 .container .cn_why a{
-    display: inline-block;
+    /*display: inline-block;
     margin-left: 1025px;
     width: 132px;
     height: 38px;
@@ -157,7 +158,21 @@
     text-align: center;
     border-radius: 20px;
     border: 1px solid #FFFFFF;
-    color: #FFFFFF;
+    color: #FFFFFF;*/
+    display: inline-block;
+    margin-left: 1025px;
+    width: 132px;
+    height: 38px;
+    background: url("../images/more--.png") no-repeat;
+    transition-delay: 0.1s!important;
+}
+
+.container .cn_why a:hover{
+    margin-left: 1025px;
+    display: inline-block;
+    width: 132px;
+    height: 38px;
+    background: url("../images/more--j.png") no-repeat;
 }
 
 

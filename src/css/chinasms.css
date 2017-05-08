@@ -154,8 +154,26 @@
     padding: 0px 35px;
 }
 
-.container .cn_sms_why .cn_sms_why2 a img{
+.container .cn_sms_why .cn_sms_why2 a{
     margin: 15px 0px 0px 15px;
+    display: inline-block;
+}
+
+
+
+
+
+.more{
+    width: 184px;
+    height: 92px;
+    background: url("../images/more.png") no-repeat;
+    transition-delay: 0.1s!important;
+}
+
+a.more:hover{
+    width: 184px;
+    height: 92px;
+    background: url("../images/more-j.png") no-repeat;
 }
 
 

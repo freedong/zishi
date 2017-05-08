@@ -38,6 +38,23 @@
 
 .container .contact_adress .contact_adress_img ul li{
     float: left;
+    position: relative;
+}
+
+
+.container .contact_adress .contact_adress_img ul li .yys_div{
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    width: 300px;
+    height: 192px;
+    background-color: #000;
+    opacity: 0.5;
+    transform: skew(-6deg);
+    display: none;
+}
+.container .contact_adress .contact_adress_img ul li:hover .yys_div{
+    display: block;
 }
 
 
@@ -411,5 +428,23 @@ input{
 .container .contact_send .send_bt{
     margin-left: 470px;
     margin-top: 85px;
+}
+
+
+
+.more{
+    display: inline-block;
+    width: 220px;
+    height: 92px;
+    background: url("../images/send.png") no-repeat;
+    transition-delay: 0.1s!important;
+    /*transition: all 0.1s;*/
+}
+
+a.more:hover{
+    display: inline-block;
+    width: 220px;
+    height: 92px;
+    background: url("../images/send--j.png") no-repeat;
 }
 

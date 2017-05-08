@@ -94,7 +94,8 @@
 
 .container .cd_why{
     height: 330px;
-    background: url(../images/why1.png) 900px 0% no-repeat;
+    background: url(../images/why1.png) 100% 0% no-repeat;
+    background-size: 48% 100%;
 }
 .container .cd_why h3{
     color: #7d21fd;
@@ -118,7 +119,8 @@
     margin-left: 50px;
 }
 
-.container .cd_why a img{
+.container .cd_why a{
+    display: inline-block;
     margin-left: 30px;
     /*margin-top: 20px;*/
 }
@@ -284,4 +286,19 @@
 .container .cd_as .cd_as2 .cd_as2_div a img{
     margin-top: 60px;
     margin-left: 450px;
+}
+
+
+
+.more{
+    width: 184px;
+    height: 92px;
+    background: url("../images/more.png") no-repeat;
+    transition-delay: 0.1s!important;
+}
+
+a.more:hover{
+    width: 184px;
+    height: 92px;
+    background: url("../images/more-j.png") no-repeat;
 }

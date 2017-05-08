@@ -387,6 +387,7 @@
     position: relative;
     height: 380px;
     background: url("../images/about_whyus.png") 0px -400px no-repeat;
+    background-attachment: fixed;
    /* background-color: #000;
     opacity: 0.8;*/
 }
@@ -428,12 +429,43 @@
 }
 
 .container .about_whyus .about_lunbo .about_lunbo_img{
-    width: 360px;
-    height: 330px;
-    line-height: 330px;
+   /* width: 360px;
+    height: 330px;*/
+    /*line-height: 330px;*/
     text-align: center;
     vertical-align: middle;
     margin-top: 60px;
+    margin-left: 80px;
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.container .about_whyus .about_lunbo .about_lunbo_img img{
+    text-align: center;
+    /*display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;*/
+    -webkit-transition: all 0.35s ease-out 0s;
+    -moz-transition: all 0.35s ease-out 0s;
+    -ms-transition: all 0.35s ease-out 0s;
+    -o-transition: all 0.35s ease-out 0s;
+    transition: all 0.35s ease-out 0s;
+}
+
+.container .about_whyus .about_lunbo .about_lunbo_img img:hover{
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
 
 .container .about_whyus .about_lunbo .about_lunbo_wz{
@@ -466,6 +498,8 @@
 
 .about_whyus .picScroll-left1 .hd1{
     position: relative;
+    height: 30px;
+    padding: 0 10px;
 }
 .about_whyus .picScroll-left1 .hd1 ul {
     float: right;
@@ -498,14 +532,14 @@
 
 
 
-
 /*
-.about_whyus .picScroll-left1:hover .hd1 .prev1,.about_cus .picScroll-left1:hover .hd1 .next1{
+
+.about_whyus .picScroll-left1:hover .hd1 .prev1,.about_whyus .picScroll-left1:hover .hd1 .next1{
     opacity: 1;
 }
 
 .about_whyus .picScroll-left1 .hd1 .prev1{
-    opacity: 1;
+    opacity: 0;
     width: 15px;
     height: 26px;
     display: inline-block;
@@ -517,7 +551,7 @@
 }
 
 .about_whyus .picScroll-left1 .hd1 .next1{
-    opacity: 1;
+    opacity: 0;
     width: 15px;
     height: 26px;
     display: inline-block;

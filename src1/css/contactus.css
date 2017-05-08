@@ -1,0 +1,415 @@
+@charset "utf-8";
+
+
+
+
+/*轮播图*/
+
+.banner{
+    height: 350px;
+}
+.banner .slide li{
+    height: 350px;
+}
+
+
+
+
+
+/*内容区*/
+
+.container{
+    background-color: #f3f6f9;
+}
+
+
+
+.container .contact_adress{
+    background-color: #FFFFFF;
+    height: 360px;
+ }
+
+
+.container .contact_adress .contact_adress_img{
+    margin-left: 62px;
+    margin-top: 86px;
+}
+
+
+.container .contact_adress .contact_adress_img ul li{
+    float: left;
+}
+
+
+
+
+
+/*.picScroll-left .hd{
+    position: relative;
+}
+.picScroll-left .hd ul{
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 312px;
+    left: 500px;
+    z-index: 100;
+}
+
+.picScroll-left .hd ul li{
+    float: left;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    margin-right: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+}
+
+.picScroll-left .hd ul li.on{
+    background-position: 0 0;
+}*/
+
+
+.picScroll-left .hd{
+    position: relative;
+}
+
+.picScroll-left .hd ul {
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+}
+
+.picScroll-left .hd ul li {
+    float: left;
+    width: 20px;
+    height: 2px;
+    overflow: hidden;
+    margin-right: 15px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle1.png") 0 -2px no-repeat;
+}
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+.container .contact_adress .contact_adress_lb ul{
+    margin-right: 150px;
+    margin-top: 80px;
+}
+.container .contact_adress .contact_adress_lb ul li{
+    font-size: 18px;
+    color: #7d21fd;
+    margin-top: 30px;
+}
+.container .contact_adress .contact_adress_lb ul li p{
+    font-size: 16px;
+    color: #999999;
+    padding-left: 25px;
+}
+.container .contact_adress .contact_adress_lb ul li i{
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    padding-right: 5px;
+    background: url("../images/ad_ys.png") no-repeat;
+}
+.container .contact_adress .contact_adress_lb ul li i.lb_bg1{
+
+}
+.container .contact_adress .contact_adress_lb ul li i.lb_bg2{
+    background-position: 0px -72px;
+}
+.container .contact_adress .contact_adress_lb ul li i.lb_bg3{
+    background-position: 0px -143px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container .contact_us{
+    background: url("../images/Contact-Us.png") 0px 45px no-repeat;
+}
+
+.container .contact_send{
+    height: 700px;
+    background: url("../images/contact_send.png") center center no-repeat;
+}
+
+.container .contact_send .contact_send_title{
+    position: relative;
+
+}
+.container .contact_send .contact_send_title h3{
+    font-size: 46px;
+    color: #7c21fb;
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 345px;
+}
+.container .contact_send .contact_send_title h5{
+    font-size: 30px;
+    color: #e3e3e3;
+    text-align: center;
+    padding-top: 70px;
+}
+
+/*
+input{
+    border: none;
+    background-color: transparent;
+}*/
+
+input{
+    border: none;
+    background-color: transparent;
+    width: 185px;
+    color: #000;
+    font-size: 22px;
+}
+
+input{
+    /*height: 75px;*/
+}
+
+.container .contact_send .contact_send_input{
+    width: 943px;
+    margin: 87px auto 0px;
+    /*background-color: #f6f2fd;*/
+}
+
+.container .contact_send .contact_send_input label{
+    font-size: 18px;
+    color: #666666;
+}
+
+.container .contact_send .contact_send_input .contact_send_input1{
+    position: relative;
+}
+
+
+.container .contact_send .contact_send_input .contact_send_input1 span.s1:hover:after,.container .contact_send .contact_send_input .contact_send_input1 span.s2:hover:after{
+    color: #333333;
+    border-top: 1px solid #333333;
+}
+.container .contact_send .contact_send_input .contact_send_input1 span.s3:hover:after,.container .contact_send .contact_send_input .contact_send_input3 span.s4:hover:after{
+    color: #333333;
+    border-top: 1px solid #333333;
+}
+
+.container .contact_send .contact_send_input .contact_send_input3 span.s5:hover:after,.container .contact_send .contact_send_input .contact_send_input3 span.s6:hover:after{
+    color: #333333;
+    border-top: 1px solid #333333;
+}
+
+
+.container .contact_send .contact_send_input .contact_send_input1 span.s1:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 260px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+
+    -webkit-transition: all 0.35s ease-out 0s;
+    -moz-transition: all 0.35s ease-out 0s;
+    -ms-transition: all 0.35s ease-out 0s;
+    -o-transition: all 0.35s ease-out 0s;
+    transition: all 0.35s ease-out 0s;
+}
+/*.container .contact_send .contact_send_input .contact_send_input1 span.s1{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}*/
+.container .contact_send .contact_send_input .contact_send_input1 span.s2:after{
+    content: " ";
+    position: absolute;
+    left: 280px;
+    top: 35px;
+    width: 260px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+.container .contact_send .contact_send_input .contact_send_input1 span.s3:after{
+    content: " ";
+    position: absolute;
+    left: 560px;
+    top: 35px;
+    width: 370px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+.container .contact_send .contact_send_input .contact_send_input3 span.s4:after{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    width: 260px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+.container .contact_send .contact_send_input .contact_send_input3 span.s5:after{
+    content: " ";
+    position: absolute;
+    left: 280px;
+    top: 35px;
+    width: 260px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+.container .contact_send .contact_send_input .contact_send_input3 span.s6:after{
+    content: " ";
+    position: absolute;
+    left: 560px;
+    top: 35px;
+    width: 370px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+
+/*.container .contact_send .contact_send_input .contact_send_input2{
+    margin-top: 40px;
+}*/
+.container .contact_send .contact_send_input .contact_send_input2 input{
+    width: 836px;
+}
+.container .contact_send .contact_send_input .contact_send_input3{
+    margin-top: 40px;
+    position: relative;
+}
+.container .contact_send .contact_send_input .contact_send_input4,.container .contact_send .contact_send_input .contact_send_input2{
+    margin-top: 40px;
+    position: relative;
+}
+.container .contact_send .contact_send_input .contact_send_input4:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 75px;
+    width: 930px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+    /*-webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);*/
+    /*left: 15px;*/
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+.container .contact_send .contact_send_input .contact_send_input2:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 930px;
+    height: 1px;
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+    /*-webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);*/
+    /*left: 15px;*/
+
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+
+.container .contact_send .contact_send_input .contact_send_input4:hover:after,.container .contact_send .contact_send_input .contact_send_input2:hover:after{
+    color: #333333;
+    border-top: 1px solid #333333;
+}
+
+.container .contact_send .contact_send_input .contact_send_input4 input{
+    width:915px;
+    margin-top: 20px;
+}
+
+
+
+.container .contact_send .send_bt{
+    margin-left: 470px;
+    margin-top: 85px;
+}
+
