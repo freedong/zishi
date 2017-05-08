@@ -486,9 +486,10 @@
     color: #333333;
 }
 
-.container .about_whyus .about_lunbo .about_lunbo_wz a img{
+.container .about_whyus .about_lunbo .about_lunbo_wz a{
     margin-left: 450px;
     margin-top: 15px;
+    display: inline-block;
 }
 
 
@@ -706,4 +707,19 @@
 
 .about_cus .picScroll-left .hd ul li.on{
     background-position: 0 0;
+}
+
+
+
+.call_me{
+    width: 202px;
+    height: 92px;
+    background: url("../images/call_me.png") no-repeat;
+    transition-delay: 0.1s!important;
+}
+
+a.call_me:hover{
+    width: 202px;
+    height: 92px;
+    background: url("../images/call_me_j.png") no-repeat;
 }

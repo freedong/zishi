@@ -337,13 +337,27 @@
     padding-top: 20px;
 }
 
-.container .cn_as .cn_as2 .cn_as2_div a img{
+.container .cn_as .cn_as2 .cn_as2_div a{
     margin-top: 60px;
     margin-left: 450px;
+    display: inline-block;
 }
 
 
 
+
+.more_buy{
+    width: 220px;
+    height: 92px;
+    background: url("../images/buynow.png") no-repeat;
+    transition-delay: 0.1s!important;
+}
+
+a.more_buy:hover{
+    width: 220px;
+    height: 92px;
+    background: url("../images/buynow_j.png") no-repeat;
+}
 
 
 

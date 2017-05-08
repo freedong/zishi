@@ -403,11 +403,11 @@
 
 
 .more{
-    width: 184px;
-    height: 92px;
-    background: url("../images/more.png") no-repeat;
-    transition-delay: 0.1s!important;
-}
+     width: 184px;
+     height: 92px;
+     background: url("../images/more.png") no-repeat;
+     transition-delay: 0.1s!important;
+ }
 
 a.more:hover{
     width: 184px;
