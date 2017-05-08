@@ -129,7 +129,9 @@
 
 
 
-
+.container .contact_adress:hover{
+    box-shadow: 1px 1px 20px #e3e6e8;
+}
 
 .container .contact_adress .contact_adress_lb ul{
     margin-right: 150px;

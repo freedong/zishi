@@ -364,7 +364,7 @@
 .container .about_hdk ul li .about_hdk_div1 p{
     color: #999999;
     font-size: 16px;
-    text-align: center;
+    /*text-align: center;*/
     padding: 15px 30px 0px;
     white-space:pre-wrap;
     overflow:hidden;
@@ -386,7 +386,7 @@
 .container .about_whyus{
     position: relative;
     height: 380px;
-    background: url("../images/about_whyus.png") 0px -400px no-repeat;
+    background: url("../images/about_whyus.png") 0px 0px no-repeat;
     background-attachment: fixed;
    /* background-color: #000;
     opacity: 0.8;*/
@@ -442,6 +442,8 @@
     height: 200px;
     line-height: 200px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     overflow: hidden;
 }
 
@@ -460,13 +462,13 @@
     transition: all 0.35s ease-out 0s;
 }
 
-.container .about_whyus .about_lunbo .about_lunbo_img img:hover{
+/*.container .about_whyus .about_lunbo .about_lunbo_img img:hover{
     transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
-}
+}*/
 
 .container .about_whyus .about_lunbo .about_lunbo_wz{
     width: 720px;

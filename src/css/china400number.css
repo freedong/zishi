@@ -99,7 +99,7 @@
 .container .cn_why{
     position: relative;
     height: 330px;
-    background: url("../images/cn_bg.png") 0px -300px no-repeat;
+    background: url("../images/cn_bg.png") 0px 10px no-repeat;
     background-attachment: fixed;
 }
 

@@ -21,7 +21,7 @@ html {
 }
 body{
 	width: 100%;
-	min-width: 1200px;
+	min-width: 1160px;
 }
 
 
@@ -839,9 +839,9 @@ p{
 	-ms-transform: translate(0px,-25px);
 	-o-transform: translate(0px,-25px);
 	transform: translate(0px,-25px);
-	/*display: block;*/
+	display: block;
 	opacity: 1;
-	visibility: visible;
+	/*visibility: visible;*/
 }
 
 .head .nav ul li.level1{
@@ -859,9 +859,9 @@ p{
 	-ms-transition: all 0.35s linear 0s;
 	-o-transition: all 0.35s linear 0s;
 	transition: all 0.35s linear 0s;
-	/*display: none;*/
+	display: none;
 	opacity: 0;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 
 
